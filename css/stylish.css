@@ -26,9 +26,11 @@
 }
 
 :root{
-	--bg-dark:hsl(0,0%,0%);
-	--bg:hsl(0,0%,5%);
-	--bg-light:hsl(0,0%,10%);
+	--bg-darkest:hsl(0,0%,0%);
+	--bg-dark:hsl(0,0%,5%);
+	--bg:hsl(0,0%,10%);
+	--bg-light:hsl(0,0%,15%);
+	--bg-lightest:hsl(0,0%,20%);
 	--border:hsl(0,0%,40%);
 	--text:hsl(0,0%,95%);
 	--text-muted:hsl(0,0%,70%);
@@ -36,7 +38,7 @@
 }
 
 body{
-	background-color:#000000;
+	background-color:var(--bg-black);
 	margin:0;
 	padding:0;
 }
