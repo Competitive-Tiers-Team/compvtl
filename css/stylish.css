@@ -1,20 +1,20 @@
-.jacquard-12-regular{
-	font-family:"Jacquard 12", system-ui;
-	font-weight:400;
-	font-style:normal;
+.jacquard-12-regular {
+	font-family: "Jacquard 12", system-ui;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .jersey-15-regular {
-  font-family: "Jersey 15", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Jersey 15", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .inter-regular {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400; /* 100 - 900 */
-  font-style: normal;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400; /* 100 - 900 */
+	font-style: normal;
 }
 
 .material-symbols-outlined {
@@ -35,7 +35,8 @@
 	--gold:hsl(33,100%,67%); /* 50 - 20 for primary */
 }
 
-*{
+body{
+	background-color:#000000;
 	margin:0;
 	padding:0;
 }
