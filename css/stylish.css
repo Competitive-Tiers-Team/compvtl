@@ -3,20 +3,17 @@
 	font-weight: 400;
 	font-style: normal;
 }
-
 .jersey-15-regular {
 	font-family: "Jersey 15", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
-
 .inter-regular {
 	font-family: "Inter", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 400; /* 100 - 900 */
 	font-style: normal;
 }
-
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -24,7 +21,6 @@
   'GRAD' 0,
   'opsz' 24
 }
-
 :root{
 	--bg-darkest:hsl(0,0%,0%);
 	--bg-dark:hsl(0,0%,5%);
@@ -36,13 +32,11 @@
 	--text-muted:hsl(0,0%,70%);
 	--gold:hsl(33,100%,67%); /* 50 - 20 for primary */
 }
-
 body{
 	background-color:var(--bg-black);
 	margin:0;
 	padding:0;
 }
-
 #betaheader{
 	display:grid;
 	grid-template-columns:auto 1fr 4fr;
@@ -50,15 +44,12 @@ body{
 	gap:20px;
 	max-width:80%;
 	margin-inline:auto;
-
 	background-color:var(--bg);
 	border:1px solid var(--border);
 	border-radius:20px;
-
 	padding-inline:1rem;
 	padding-block:1rem;
 	margin-top:1rem;
-
 	.tlname{
 		margin-left:1rem;
 		color:var(--text);
@@ -70,7 +61,6 @@ body{
 		font-weight:bold;
 	}
 }
-
 #betanavigation{
 	display:grid;
 	grid-template-columns:1fr auto auto;
@@ -78,15 +68,12 @@ body{
 	gap:20px;
 	max-width:80%;
 	margin-inline:auto;
-
 	background-color:var(--bg);
 	border:1px solid var(--border);
 	border-radius:20px;
-
 	padding-inline:1rem;
 	padding-block:1rem;
 	margin-top:1rem;
-
 	.search{
 		display:grid;
 		grid-template-columns:1fr auto;
@@ -107,7 +94,6 @@ body{
 		border:none;
 		font-size:1.3vw;
 	}
-
 	.miniwiki{
 		display:grid;
 		align-items:center;
@@ -131,37 +117,29 @@ body{
 		svg{width:24px;height:24px;}
 	}
 }
-
 #betatierlist{
 	display:grid;
-
 	max-width:80%;
 	margin-inline:auto;
-
 	background-color:var(--bg);
 	border:1px solid var(--border);
 	border-radius:20px;
-
 	padding-inline:1rem;
 	padding-block:1rem;
 	margin-top:1rem;
-
 	.main{
 		display:grid;
 		grid-template-columns:1fr 1fr 1fr 1fr 1fr;
 		gap:20px;
-
 		width:100%;
 		color:var(--text);
 		text-align:center;
-
 		.tierx{
 			font-size:2.5vw;
 			border:1px solid var(--border);
 			border-radius:24px 24px 4px 4px;
 			padding-bottom:1rem;
 		}
-
 		.name{
 			font-size:1.2vw;
 			text-align:left;
@@ -175,4 +153,3 @@ body{
 		}
 	}
 }
-
