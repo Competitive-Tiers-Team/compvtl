@@ -1,1 +1,31 @@
-
+.tierlist{
+	margin-top:2rem;
+	grid-template-columns:auto;
+	align-items:center;
+}
+.table{
+	display:grid;
+	grid-template-columns:repeat(5,1fr);
+	gap:0.2rem;
+	color:var(--text);
+}
+.tier1, .tier2, .tier3, .tier4, .tier5{
+	min-width:0;
+}
+.top{
+	background-color:var(--bg);
+	text-align:center;
+	padding-top:0.5rem;
+	padding-bottom:0.5rem;
+}
+.name{
+	text-align:left;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	padding-inline:1rem;
+	padding-block:0.5rem;
+	background-color:var(--bg-lightest);
+	margin-top:0.2rem;
+	margin-bottom:0.2rem;
+}
